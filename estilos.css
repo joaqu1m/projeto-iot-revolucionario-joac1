@@ -1,0 +1,18 @@
+p, i, h1 {
+    color: green;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.titulo {
+    color: red;
+}
+/* . significa que é uma classe
+# significa que é um ID */
+#paragrafo{
+    color: lightpink;
+}
+/*
+#paragrafo é a chave/seletor
+color é a propriedade
+arial é o valor
+*/
