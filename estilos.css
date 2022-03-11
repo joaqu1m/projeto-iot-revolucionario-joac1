@@ -1,18 +1,28 @@
-p, i, h1 {
-    color: green;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    font-family: monospace;
+    margin: 0px;
 }
-.titulo {
-    color: red;
+.header {
+    background-color: black;
+    width: 100%;
+    border-bottom: 10px black solid;
 }
-/* . significa que é uma classe
-# significa que é um ID */
-#paragrafo{
-    color: lightpink;
+h1 {
+    margin: 0px 0px 0px 0px;
+    color: blue;
 }
 /*
-#paragrafo é a chave/seletor
-color é a propriedade
-arial é o valor
+top left bottom right - nessa ordem do margin
 */
+.header .container {
+    width: 70%;
+    display: flex;
+}
+.navbar {
+    width: 500px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    color: orange;
+    display: flex;
+}
